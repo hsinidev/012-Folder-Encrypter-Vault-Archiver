@@ -1,6 +1,5 @@
-# Folder Encrypter & Vault Archiver (ID: `012`)
+# Folder Encrypter & Vault Archiver
 
-[![Project ID](https://img.shields.io/badge/Project%20ID-012-blue.svg)](https://github.com/hsinidev/012-Folder-Encrypter-Vault-Archiver)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Developer](https://img.shields.io/badge/Developer-Hsini%20Mohamed-green.svg)](https://hsini.dev)
 
