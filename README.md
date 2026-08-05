@@ -4,7 +4,7 @@
 [![Developer](https://img.shields.io/badge/Developer-Hsini%20Mohamed-green.svg)](https://hsini.dev)
 
 > **Project ID**: `012`  
-> **Repository**: [https://github.com/hsinidev/012-Folder-Encrypter-Vault-Archiver](https://github.com/hsinidev/012-Folder-Encrypter-Vault-Archiver)
+> **Repository**: [https://github.com/hsinidev/Folder-Encrypter-Vault-Archiver](https://github.com/hsinidev/Folder-Encrypter-Vault-Archiver)
 
 ---
 
@@ -38,10 +38,10 @@ Folder Encrypter & Vault Archiver secures sensitive directories into encrypted f
 ### Setup Instructions
 ```bash
 # 1. Clone the repository
-git clone https://github.com/hsinidev/012-Folder-Encrypter-Vault-Archiver.git
+git clone https://github.com/hsinidev/Folder-Encrypter-Vault-Archiver.git
 
 # 2. Navigate to project directory
-cd 012-Folder-Encrypter-Vault-Archiver
+cd Folder-Encrypter-Vault-Archiver
 
 # 3. Install required dependencies
 pip install -r requirements.txt
@@ -59,7 +59,7 @@ python app.py
 - **Website**: [https://hsini.dev](https://hsini.dev)
 - **Email**: [contact@hsini.dev](mailto:contact@hsini.dev)
 - **GitHub Profile**: [https://github.com/hsinidev](https://github.com/hsinidev)
-- **Project Repo**: [https://github.com/hsinidev/012-Folder-Encrypter-Vault-Archiver](https://github.com/hsinidev/012-Folder-Encrypter-Vault-Archiver)
+- **Project Repo**: [https://github.com/hsinidev/Folder-Encrypter-Vault-Archiver](https://github.com/hsinidev/Folder-Encrypter-Vault-Archiver)
 
 ---
 
