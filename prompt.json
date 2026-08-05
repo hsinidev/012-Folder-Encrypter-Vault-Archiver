@@ -1,0 +1,70 @@
+{
+  "project_id": 12,
+  "title": "Folder Encrypter & Vault Archiver Pro (CustomTkinter & Python 3.10+)",
+  "folder_name": "012-Folder-Encrypter-Vault-Archiver",
+  "category": "Cryptographic Vaults & Security Archivers",
+  "target_os": "Windows 10 / Windows 11 (x64 Native Executable / PyInstaller .exe)",
+  "version": "2.0.0-PROD",
+  "overview": "A zero-knowledge, military-grade folder encryption and vault archiving workstation engineered with CustomTkinter & Python 3.10+ (PyInstaller .exe Bundle). Combines Argon2id memory-hard key derivation, hardware-accelerated AES-256-GCM authenticated encryption, file header obfuscation, chunked memory-bounded vault streaming, multi-pass DoD 5220.22-M source file shredding, and sub-100ms Fast sub-second application launch with a tiny ~25MB memory footprint.",
+  "key_features": [
+    "Argon2id Key Derivation & AES-256-GCM Engine: High-security key derivation with configurable memory/time parameters, generating 256-bit keys for authenticated AES-GCM chunked stream encryption",
+    "Header Obfuscation & Vault Anonymization: Prepend pseudo-random entropy headers to encrypted vaults to prevent file-signature detection and magic byte analysis by forensic tools",
+    "Multi-Pass Secure Source Shredder: Optional post-encryption source file destruction executing 3-pass DoD 5220.22-M or Gutmann overwrite wipes before unlinking filesystem descriptors",
+    "Zero-Knowledge Memory Safety: Automatic passphrase memory zeroing using Rust zeroize traits, guaranteeing cryptographic keys and sensitive buffers never linger in RAM or swap space",
+    "Interactive Vault Workspace & File Tree: Drag-and-drop vault builder with item file-size breakdown, dynamic entropy gauge, strength analyzer, and vault inspection drawer",
+    "Real-Time Telemetry & Throughput Meters: Sub-millisecond IPC progress streaming featuring active MB/s throughput, elapsed/ETA timers, processed byte counters, and chunk hash validation"
+  ],
+  "core_stack": {
+    "python_version": "3.10+",
+    "gui_framework": "CustomTkinter >= 5.2.0",
+    "drag_and_drop": "TkinterDnD2 / tkinterdnd2-universal",
+    "concurrency": "threading.Thread, queue.Queue, subprocess.Popen",
+    "packaging": "PyInstaller 6.0+ (Standalone .exe)"
+  },
+  "design_system_and_theme": {
+    "theme_name": "Cyber Vault & Neon Amethyst",
+    "color_palette": {
+      "background_primary": "#06070B",
+      "background_secondary": "#0E1017",
+      "surface_card": "#161924",
+      "accent_primary": "#A855F7",
+      "accent_secondary": "#06B6D4",
+      "accent_hover": "#9333EA",
+      "text_primary": "#F8FAFC",
+      "text_secondary": "#94A3B8",
+      "danger_red": "#EF4444",
+      "warning_amber": "#F59E0B",
+      "success_emerald": "#10B981",
+      "border_color": "#252B3B"
+    },
+    "typography": {
+      "font_family": "Inter, Segoe UI, Cascadia Code, sans-serif",
+      "heading_size": "18px",
+      "subheading_size": "14px",
+      "body_size": "12px",
+      "caption_size": "10px"
+    }
+  },
+  "system_architecture": {
+    "pattern": "Model-View-Controller (MVC) with Asynchronous Thread-Safe Event Queue",
+    "backend_rust_core": "Tokio async event loop driving memory-bounded stream encrypters/decrypters (64KB chunks), Argon2id key derivation worker threads, zeroize memory hygiene, and DOD 3-pass file shredding handlers",
+    "frontend_react_view": "CustomTkinter-powered CustomTkinter Application with Zustand state management, interactive dropzone file tree, passphrase entropy indicator, shredding toggle panel, and dynamic MB/s throughput charts",
+    "ipc_communication": "Sub-millisecond typed JSON channels passing commands ('create_vault', 'unlock_vault', 'shred_files') and streaming atomic 'vault-progress' payloads",
+    "process_safety": "Thread-safe event queue passing, clean process tree termination, and memory safety",
+    "ui_thread": "CustomTkinter main loop polling queue.Queue every 40ms for 60 FPS UI responsiveness",
+    "worker_threads": "Background Python threads executing non-blocking stream & engine tasks"
+  },
+  "packaging_spec": {
+    "output_binary_name": "FolderEncrypterVaultArchiver.exe",
+    "entry_point": "main.py",
+    "bundle_mode": "onedir / standalone exe",
+    "hidden_imports": [
+      "customtkinter",
+      "tkinterdnd2",
+      "PIL",
+      "queue",
+      "concurrent.futures"
+    ]
+  },
+  "ai_agent_prompt": "You are an elite Senior Desktop Systems & Security Software Engineer tasked with implementing a production-grade native Windows desktop application titled 'Folder Encrypter & Vault Archiver Pro'.\n\n### PROJECT OBJECTIVE:\nConstruct a zero-cloud, military-grade cryptographic vault suite using CustomTkinter (Python 3.10+ backend + CustomTkinter dark UI) that packs and encrypts folders into single-file zero-knowledge vaults using Argon2id key derivation, hardware-accelerated AES-256-GCM, header obfuscation, chunked memory-bounded streaming, optional source file shredding, and sub-millisecond IPC telemetry.\n\n### MANDATORY TECHNICAL REQUIREMENTS:\n1. PYTHON & CUSTOMTKINTER DESKTOP ARCHITECTURE:\n   - Frontend built with CustomTkinter, TypeScript, CustomTkinter Styling, and Lucide CustomTkinter icons operating with sub-100ms Fast Application Startup during development.\n   - Python 3.10+ backend leveraging tokio async runtime, argon2, aes-gcm, and zeroize crates for memory-safe cryptographic pipeline execution.\n\n2. DISTINCT THEME (CYBER VAULT & NEON AMETHYST):\n   - Implement a dark security workspace using #06070B (Primary Dark), #0E1017 (Panels), #161924 (Cards), #A855F7 (Amethyst Primary Accent), and #06B6D4 (Cyan Secondary Accent).\n   - Provide an interactive layout featuring a drag-and-drop vault builder, passphrase strength meter, header obfuscation toggles, multi-pass file shredding inspector, and collapsible activity console.\n\n3. CRYPTOGRAPHIC VAULT ENGINE & ZERO-KNOWLEDGE SAFETY:\n   - Derive 256-bit keys using Argon2id (memory-hard KDF) with configurable cost factors.\n   - Encrypt streaming 64KB data chunks via AES-256-GCM authenticated encryption.\n   - Enforce zero-knowledge memory safety using Zeroize on all passphrase buffers and key bytes immediately after KDF execution.\n\n4. HEADER OBFUSCATION & MULTI-PASS FILE SHREDDER:\n   - Implement header obfuscation prepending pseudo-random bytes to mask file signatures.\n   - Provide an optional post-archiving source file shredder executing DoD 5220.22-M 3-pass overwrite sweeps before deleting filesystem records.\n\n5. TELEMETRY & PROGRESS STREAMING:\n   - Stream atomic progress events (vault-progress), MB/s throughput speedometers, processed byte counters, and ETA to the CustomTkinter UI via event_queue.put(...) without UI thread blocking."
+}

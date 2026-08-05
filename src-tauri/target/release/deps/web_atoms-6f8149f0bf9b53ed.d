@@ -1,0 +1,11 @@
+C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\deps\web_atoms-6f8149f0bf9b53ed.d: C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\web_atoms-0.2.5\lib.rs C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\build\web_atoms-bd454a11aef1591a\out/named_entities.rs C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\build\web_atoms-bd454a11aef1591a\out/generated.rs
+
+C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\deps\libweb_atoms-6f8149f0bf9b53ed.rlib: C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\web_atoms-0.2.5\lib.rs C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\build\web_atoms-bd454a11aef1591a\out/named_entities.rs C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\build\web_atoms-bd454a11aef1591a\out/generated.rs
+
+C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\deps\libweb_atoms-6f8149f0bf9b53ed.rmeta: C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\web_atoms-0.2.5\lib.rs C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\build\web_atoms-bd454a11aef1591a\out/named_entities.rs C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\build\web_atoms-bd454a11aef1591a\out/generated.rs
+
+C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\web_atoms-0.2.5\lib.rs:
+C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\build\web_atoms-bd454a11aef1591a\out/named_entities.rs:
+C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\build\web_atoms-bd454a11aef1591a\out/generated.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\hsini\\Desktop\\windwes-project\\windwes-project\\012-Folder-Encrypter-Vault-Archiver\\src-tauri\\target\\release\\build\\web_atoms-bd454a11aef1591a\\out

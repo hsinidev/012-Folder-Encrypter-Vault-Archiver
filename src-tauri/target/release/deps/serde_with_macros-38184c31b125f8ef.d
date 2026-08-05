@@ -1,0 +1,8 @@
+C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\deps\serde_with_macros-38184c31b125f8ef.d: C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\lib.rs C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\apply.rs C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\lazy_bool.rs C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\utils.rs
+
+C:\Users\hsini\Desktop\windwes-project\windwes-project\012-Folder-Encrypter-Vault-Archiver\src-tauri\target\release\deps\serde_with_macros-38184c31b125f8ef.dll: C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\lib.rs C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\apply.rs C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\lazy_bool.rs C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\utils.rs
+
+C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\lib.rs:
+C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\apply.rs:
+C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\lazy_bool.rs:
+C:\Users\hsini\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde_with_macros-3.21.0\src\utils.rs:

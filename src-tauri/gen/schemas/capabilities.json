@@ -1,0 +1,1 @@
+{"default":{"identifier":"default","description":"Default capability for Folder Encrypter Vault","local":true,"windows":["main"],"permissions":["core:default","fs:default","fs:allow-read-text-file","fs:allow-write-text-file","fs:allow-read-file","fs:allow-write-file","fs:allow-create","fs:allow-remove","fs:allow-exists","dialog:default","shell:default","process:default"]}}
